@@ -1,10 +1,97 @@
-/* src/pages/Home.css */
 .home-container {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .home-container p {
-    font-size: 1.2rem;
-  }
-  
+  max-width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.home-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-content {
+  max-width: 900px;
+  font-size: large;
+  margin: auto;
+}
+.section-content h2 {
+  margin-bottom: 10px;
+}
+.aboutImg {
+  display: flex;
+  gap: 20px;
+}
+
+.home-section h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.review {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.review-text {
+  font-style: italic;
+  color: #555;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #888;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section p {
+  margin-top: 20px;
+}
+
+.contact-section a {
+  color: #3399cc;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
